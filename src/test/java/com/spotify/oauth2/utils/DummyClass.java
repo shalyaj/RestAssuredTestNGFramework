@@ -4,5 +4,6 @@ public class DummyClass {
 
     public void dummy(){
         System.out.println("dummy");
+        System.out.println("dummy1");
     }
 }
