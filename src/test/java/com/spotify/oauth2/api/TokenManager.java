@@ -30,6 +30,7 @@ public class TokenManager {
     }
 
     private static Response renewToken(){
+    	System.out.println("Setting up the token configuration");
         HashMap<String, String> formParams = new HashMap<String, String>();
         formParams.put("client_id", ConfigLoader.getInstance().getClientId());
         formParams.put("client_secret", ConfigLoader.getInstance().getClientSecret());
